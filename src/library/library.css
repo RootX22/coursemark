@@ -1,0 +1,113 @@
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 16px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 18px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.row.start {
+  justify-content: flex-start;
+}
+
+.row h2 {
+  margin: 0;
+}
+
+.filters button[aria-pressed='true'] {
+  background: var(--fg);
+  border-color: var(--fg);
+  color: var(--bg);
+}
+
+.course-list {
+  list-style: none;
+  margin: 14px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.course .title {
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.course .title:hover {
+  text-decoration: underline;
+}
+
+.course .meta {
+  color: var(--muted);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.course .actions {
+  display: flex;
+  gap: 8px;
+}
+
+.benefits {
+  margin: 0 0 14px;
+  padding-inline-start: 20px;
+}
+
+.key-form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.key-form input {
+  flex: 1;
+  min-width: 220px;
+  font-family: ui-monospace, Menlo, monospace;
+}
+
+.error {
+  color: var(--danger);
+  margin: 8px 0 0;
+}
+
+#import-label input {
+  display: none;
+}
+
+#import-label[aria-disabled='true'] {
+  opacity: 0.5;
+  cursor: default;
+}

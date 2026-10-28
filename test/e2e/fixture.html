@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Watch page fixture</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Roboto, Arial, sans-serif;
+        background: #fff;
+        color: #0f0f0f;
+      }
+      ytd-watch-flexy {
+        display: flex;
+        gap: 24px;
+        padding: 24px;
+      }
+      #primary {
+        flex: 1;
+        min-width: 0;
+      }
+      #secondary {
+        width: 402px;
+        flex: none;
+      }
+      video {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        background: #000;
+        border-radius: 12px;
+        object-fit: cover;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 12px 0;
+      }
+      .related {
+        height: 94px;
+        border-radius: 8px;
+        background: #f2f2f2;
+        margin-bottom: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The parts of YouTube's watch page Coursemark relies on, and nothing else. -->
+    <ytd-watch-flexy is-two-columns_>
+      <div id="primary">
+        <div id="movie_player">
+          <video class="html5-main-video" src="/fixture.webm" muted preload="auto"></video>
+        </div>
+        <div id="below"><h1 id="title"></h1></div>
+      </div>
+      <div id="secondary">
+        <div id="secondary-inner">
+          <div class="related"></div>
+          <div class="related"></div>
+          <div class="related"></div>
+        </div>
+      </div>
+    </ytd-watch-flexy>
+    <script>
+      const videos = JSON.parse(document.getElementById('videos').textContent);
+      const currentId = () => new URLSearchParams(location.search).get('v');
+      const show = () => (document.getElementById('title').textContent = videos[currentId()]?.title ?? '');
+      document.getElementById('movie_player').getPlayerResponse = () => {
+        const video = videos[currentId()];
+        return video && { videoDetails: { videoId: currentId(), author: 'Open Learning Lab', ...video } };
+      };
+      window.keysSeenByPage = [];
+      document.addEventListener('keydown', (event) => keysSeenByPage.push(event.key));
+      window.navigateTo = (id) => {
+        history.pushState({}, '', `/watch?v=${id}`);
+        show();
+        document.dispatchEvent(new Event('yt-navigate-finish'));
+      };
+      show();
+    </script>
+  </body>
+</html>

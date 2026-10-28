@@ -1,0 +1,176 @@
+{
+  "name": {
+    "message": "Coursemark: course mode for YouTube"
+  },
+  "description": {
+    "message": "Study long YouTube videos like a course: chapters that tick themselves as you watch, timestamped notes, saved progress."
+  },
+  "collapse": {
+    "message": "Show or hide"
+  },
+  "freeLimit": {
+    "message": "You are studying $1 courses, the most the free plan follows at once. Finish one, or get Pro from the Coursemark button in the toolbar."
+  },
+  "startCourse": {
+    "message": "Study as a course"
+  },
+  "chapterSummary": {
+    "message": "$1 chapters. Each one ticks itself once you have watched it."
+  },
+  "partSummary": {
+    "message": "No chapters in this video, so it will be split into $1 parts of about ten minutes."
+  },
+  "resumeAt": {
+    "message": "Resume at $1"
+  },
+  "markDone": {
+    "message": "Mark “$1” as done"
+  },
+  "noteLabel": {
+    "message": "Note"
+  },
+  "addNote": {
+    "message": "Add"
+  },
+  "noteAt": {
+    "message": "Note at $1"
+  },
+  "deleteNote": {
+    "message": "Delete note"
+  },
+  "exportNotes": {
+    "message": "Export notes"
+  },
+  "partNumber": {
+    "message": "Part $1"
+  },
+  "chapters": {
+    "message": "Chapters"
+  },
+  "notes": {
+    "message": "Notes"
+  },
+  "chaptersDone": {
+    "message": "$1 of $2 chapters done"
+  },
+  "continueStudying": {
+    "message": "Continue studying"
+  },
+  "emptyPopup": {
+    "message": "Open a long video on YouTube and press “Study as a course” beside it."
+  },
+  "openLibrary": {
+    "message": "Library"
+  },
+  "getPro": {
+    "message": "Get Pro"
+  },
+  "free": {
+    "message": "Free"
+  },
+  "hoursMinutes": {
+    "message": "$1 h $2 min"
+  },
+  "minutesOnly": {
+    "message": "$1 min"
+  },
+  "today": {
+    "message": "Today"
+  },
+  "days": {
+    "message": "$1 days"
+  },
+  "streak": {
+    "message": "Streak"
+  },
+  "lastSevenDays": {
+    "message": "Last 7 days"
+  },
+  "studyTime": {
+    "message": "Study time"
+  },
+  "courses": {
+    "message": "Courses"
+  },
+  "inProgress": {
+    "message": "In progress"
+  },
+  "finished": {
+    "message": "Finished"
+  },
+  "backup": {
+    "message": "Backup"
+  },
+  "backupHelp": {
+    "message": "Save every course, note and study day to a file, and bring them back in another browser or on another computer. Part of Pro."
+  },
+  "exportBackup": {
+    "message": "Save backup"
+  },
+  "importBackup": {
+    "message": "Restore from file"
+  },
+  "statsTeaser": {
+    "message": "Pro shows how long you studied today and this week, and your streak of study days."
+  },
+  "salesNotConfigured": {
+    "message": "Pro is not on sale in this build."
+  },
+  "proActive": {
+    "message": "Pro is active in this browser. Thank you for supporting Coursemark."
+  },
+  "licenseInvalid": {
+    "message": "Your Pro key is no longer valid: it was refunded, disabled or has expired."
+  },
+  "benefitCourses": {
+    "message": "Study as many courses at once as you like (free: $1)"
+  },
+  "benefitStats": {
+    "message": "Study time for today and the week, and your streak"
+  },
+  "benefitBackup": {
+    "message": "Backup and restore across browsers and computers"
+  },
+  "licenseKey": {
+    "message": "License key from your receipt email"
+  },
+  "activate": {
+    "message": "Activate"
+  },
+  "removePro": {
+    "message": "Remove Pro from this browser"
+  },
+  "licenseWrongProduct": {
+    "message": "That key is for a different product."
+  },
+  "licenseUnreachable": {
+    "message": "Could not reach the license server. Check your connection and try again."
+  },
+  "licenseRejected": {
+    "message": "The key was not accepted: $1"
+  },
+  "emptyActive": {
+    "message": "No courses in progress. Open a long YouTube video and press “Study as a course”."
+  },
+  "emptyFinished": {
+    "message": "Courses you finish will be listed here."
+  },
+  "noteCount": {
+    "message": "$1 notes"
+  },
+  "deleteCourse": {
+    "message": "Delete"
+  },
+  "confirmDelete": {
+    "message": "Delete “$1” with its progress and notes?"
+  },
+  "importDone": {
+    "message": "Restored. $1 courses were added or updated."
+  },
+  "importFailed": {
+    "message": "That file is not a Coursemark backup ($1)."
+  },
+  "licenseNeedsConsent": {
+    "message": "Firefox needs your permission to send the key to the license server."
+  }
+}

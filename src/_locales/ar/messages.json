@@ -1,0 +1,176 @@
+{
+  "name": {
+    "message": "Coursemark: وضع الدورات ليوتيوب"
+  },
+  "description": {
+    "message": "ادرس فيديوهات يوتيوب الطويلة كدورة: فصول تُعلَّم تلقائيًا أثناء المشاهدة، وملاحظات مرتبطة بالوقت، وتقدّم محفوظ."
+  },
+  "collapse": {
+    "message": "إظهار أو إخفاء"
+  },
+  "freeLimit": {
+    "message": "تتابع الآن $1 دورات، وهو الحد الأقصى في الخطة المجانية. أنهِ إحداها، أو اشترك في Pro من زر Coursemark في شريط الأدوات."
+  },
+  "startCourse": {
+    "message": "ادرسه كدورة"
+  },
+  "chapterSummary": {
+    "message": "عدد الفصول: $1. يُعلَّم كل فصل تلقائيًا بعد مشاهدته."
+  },
+  "partSummary": {
+    "message": "لا يحتوي هذا الفيديو على فصول، لذا سيُقسَّم إلى أجزاء مدة كل منها نحو عشر دقائق (عدد الأجزاء: $1)."
+  },
+  "resumeAt": {
+    "message": "تابع من $1"
+  },
+  "markDone": {
+    "message": "علّم «$1» كمكتمل"
+  },
+  "noteLabel": {
+    "message": "ملاحظة"
+  },
+  "addNote": {
+    "message": "أضف"
+  },
+  "noteAt": {
+    "message": "ملاحظة عند $1"
+  },
+  "deleteNote": {
+    "message": "احذف الملاحظة"
+  },
+  "exportNotes": {
+    "message": "صدّر الملاحظات"
+  },
+  "partNumber": {
+    "message": "الجزء $1"
+  },
+  "chapters": {
+    "message": "الفصول"
+  },
+  "notes": {
+    "message": "الملاحظات"
+  },
+  "chaptersDone": {
+    "message": "اكتمل $1 من $2"
+  },
+  "continueStudying": {
+    "message": "تابع الدراسة"
+  },
+  "emptyPopup": {
+    "message": "افتح فيديو طويلًا على يوتيوب واضغط «ادرسه كدورة» بجانبه."
+  },
+  "openLibrary": {
+    "message": "المكتبة"
+  },
+  "getPro": {
+    "message": "اشترك في Pro"
+  },
+  "free": {
+    "message": "مجاني"
+  },
+  "hoursMinutes": {
+    "message": "$1 س $2 د"
+  },
+  "minutesOnly": {
+    "message": "$1 د"
+  },
+  "today": {
+    "message": "اليوم"
+  },
+  "days": {
+    "message": "$1"
+  },
+  "streak": {
+    "message": "أيام متتالية"
+  },
+  "lastSevenDays": {
+    "message": "آخر 7 أيام"
+  },
+  "studyTime": {
+    "message": "وقت الدراسة"
+  },
+  "courses": {
+    "message": "الدورات"
+  },
+  "inProgress": {
+    "message": "قيد الدراسة"
+  },
+  "finished": {
+    "message": "المكتملة"
+  },
+  "backup": {
+    "message": "النسخ الاحتياطي"
+  },
+  "backupHelp": {
+    "message": "احفظ كل الدورات والملاحظات وأيام الدراسة في ملف، واستعدها في متصفح أو جهاز آخر. ميزة من Pro."
+  },
+  "exportBackup": {
+    "message": "احفظ نسخة احتياطية"
+  },
+  "importBackup": {
+    "message": "استعد من ملف"
+  },
+  "statsTeaser": {
+    "message": "يعرض Pro مدة دراستك اليوم وخلال الأسبوع، وعدد أيام الدراسة المتتالية."
+  },
+  "salesNotConfigured": {
+    "message": "اشتراك Pro غير متاح في هذه النسخة."
+  },
+  "proActive": {
+    "message": "اشتراك Pro مفعّل في هذا المتصفح. شكرًا لدعمك Coursemark."
+  },
+  "licenseInvalid": {
+    "message": "مفتاح Pro لم يعد صالحًا: استُرد ثمنه أو عُطّل أو انتهت مدته."
+  },
+  "benefitCourses": {
+    "message": "ادرس أي عدد من الدورات في وقت واحد (المجاني: $1)"
+  },
+  "benefitStats": {
+    "message": "وقت الدراسة اليوم وخلال الأسبوع، وأيامك المتتالية"
+  },
+  "benefitBackup": {
+    "message": "نسخ احتياطي واستعادة بين المتصفحات والأجهزة"
+  },
+  "licenseKey": {
+    "message": "مفتاح الترخيص من رسالة الشراء"
+  },
+  "activate": {
+    "message": "فعّل"
+  },
+  "removePro": {
+    "message": "أزل Pro من هذا المتصفح"
+  },
+  "licenseWrongProduct": {
+    "message": "هذا المفتاح خاص بمنتج آخر."
+  },
+  "licenseUnreachable": {
+    "message": "تعذّر الوصول إلى خادم التراخيص. تحقق من اتصالك وأعد المحاولة."
+  },
+  "licenseRejected": {
+    "message": "لم يُقبل المفتاح: $1"
+  },
+  "emptyActive": {
+    "message": "لا توجد دورات قيد الدراسة. افتح فيديو طويلًا على يوتيوب واضغط «ادرسه كدورة»."
+  },
+  "emptyFinished": {
+    "message": "ستظهر هنا الدورات التي تُنهيها."
+  },
+  "noteCount": {
+    "message": "الملاحظات: $1"
+  },
+  "deleteCourse": {
+    "message": "احذف"
+  },
+  "confirmDelete": {
+    "message": "هل تريد حذف «$1» مع تقدمك وملاحظاتك؟"
+  },
+  "importDone": {
+    "message": "تمت الاستعادة. عدد الدورات المضافة أو المحدَّثة: $1."
+  },
+  "importFailed": {
+    "message": "هذا الملف ليس نسخة احتياطية من Coursemark ($1)."
+  },
+  "licenseNeedsConsent": {
+    "message": "يحتاج Firefox إلى إذنك لإرسال المفتاح إلى خادم التراخيص."
+  }
+}

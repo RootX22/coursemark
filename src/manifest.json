@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_name__",
+  "short_name": "Coursemark",
+  "description": "__MSG_description__",
+  "version": "1.0.0",
+  "default_locale": "en",
+  "homepage_url": "https://github.com/RootX22/coursemark",
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.lemonsqueezy.com/*"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": { "16": "icons/16.png", "32": "icons/32.png" }
+  },
+  "options_ui": {
+    "page": "library/library.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content/bridge.js"],
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content/loader.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content/main.js",
+        "content/panel.js",
+        "content/panel.css",
+        "core/*.js",
+        "lib/*.js",
+        "icons/32.png"
+      ],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ]
+}

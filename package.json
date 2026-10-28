@@ -1,0 +1,23 @@
+{
+  "name": "coursemark",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "icons": "node scripts/icons.mjs",
+    "test": "node --test test/unit/*.test.js",
+    "test:e2e": "node scripts/build.mjs && node --test --test-concurrency=1 test/e2e/*.test.js",
+    "lint": "prettier --check . && web-ext lint --source-dir dist/firefox --self-hosted=false",
+    "format": "prettier --write .",
+    "screenshots": "node scripts/build.mjs && node scripts/screenshots.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.49.1",
+    "prettier": "3.3.3",
+    "web-ext": "10.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
