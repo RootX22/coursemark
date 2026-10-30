@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'ci'
+    labels:
+      - dependencies
+  # Development tools only: the extension ships no npm packages.
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    commit-message:
+      prefix: 'deps'
+    labels:
+      - dependencies
+    groups:
+      dev-tools:
+        patterns: ['*']
